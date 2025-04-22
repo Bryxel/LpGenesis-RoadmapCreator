@@ -23,7 +23,7 @@ LpGenesis Roadmap Creator is a web application that allows users to **create, or
 
 # 🛠️ Setup & Installation
 
-1. **Clone the repo**
+**Clone the repo**
 
 git clone https://github.com/Bryxel/LpGenesis-RoadmapCreator.git
 
