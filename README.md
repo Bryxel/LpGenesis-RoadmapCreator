@@ -21,7 +21,7 @@ LpGenesis Roadmap Creator is a web application that allows users to **create, or
 - 
 ---
 
-## 🛠️ Setup & Installation
+# 🛠️ Setup & Installation
 
 1. **Clone the repo**
 
@@ -30,26 +30,26 @@ git clone https://github.com/Bryxel/LpGenesis-RoadmapCreator.git
 
 **Backend (Django) Setup**
 
-# Create and activate virtual environment
+## Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Run migrations
+## Run migrations
 python manage.py migrate
 
-# Start the backend server
+## Start the backend server
 python manage.py runserver
 
 
 **Frontend (React) Setup**
 
-# Install frontend dependencies
+## Install frontend dependencies
 npm install
 
-# Start the frontend dev server
+## Start the frontend dev server
 npm run dev
 
 
