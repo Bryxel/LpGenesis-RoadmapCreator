@@ -18,7 +18,7 @@ LpGenesis Roadmap Creator is a web application that allows users to **create, or
 - **Backend**: Django REST Framework (DRF)
 - **Styling**: CSS / Tailwind: DaisyUi
 - **API Communication**: Axios
-- 
+
 ---
 
 # 🛠️ Setup & Installation
@@ -27,24 +27,27 @@ LpGenesis Roadmap Creator is a web application that allows users to **create, or
 
 git clone https://github.com/Bryxel/LpGenesis-RoadmapCreator.git
 
+---
+# Backend (Django) Setup
+---
 
-**Backend (Django) Setup**
+**Create and activate virtual environment**
+  python -m venv venv
+  source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-## Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+**Install dependencies**
+  pip install -r requirements.txt
 
-## Install dependencies
-pip install -r requirements.txt
+**Run migrations**
+  python manage.py migrate
 
-## Run migrations
-python manage.py migrate
+**Start the backend server**
 
-## Start the backend server
-python manage.py runserver
+  python manage.py runserver
 
-
-**Frontend (React) Setup**
+---
+# Frontend (React) Setup
+---
 
 ## Install frontend dependencies
 npm install
@@ -53,11 +56,10 @@ npm install
 npm run dev
 
 
-
---Screenshots
-(Include screenshots or a short demo GIF/video if available)
-
+---
+--**Screenshots:**
 
 
--- Inspiration
+---
+-- **Inspiration:**
 LpGenesis is my way of helping others visualize their growth journeys. Whether you're switching careers, working on a startup, or planning your next big step, I wanted to make it easier to break things down, stay focused, and see how far you've come.
