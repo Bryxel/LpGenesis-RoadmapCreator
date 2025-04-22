@@ -1,10 +1,10 @@
-#LpGenesis - RoadmapCreator
+# LpGenesis - RoadmapCreator
 
 LpGenesis Roadmap Creator is a web application that allows users to **create, organize, and visualize custom roadmaps or timelines** to track goals, personal development, or projects.
 
 ---
 
-##Features
+## Features
 
 - Add, edit, and delete roadmap items
 - Custom labeling and categorization
